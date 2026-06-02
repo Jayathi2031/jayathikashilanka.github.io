@@ -53,3 +53,14 @@ footer{text-align:center;color:var(--muted);padding:34px 20px;border-top:1px sol
 @media (max-width:900px){nav{display:none}.hero,.about-grid,.project,.project.flagship,.contact{grid-template-columns:1fr}.hero{min-height:0}.hero-visual,.hero-visual img{min-height:420px;height:420px}.stats-strip,.skills-grid{grid-template-columns:1fr 1fr}.section-shell{padding:64px 0}.project{padding:24px}.project:nth-of-type(even) .project-media{order:-1}}
 @media (max-width:560px){h1{font-size:44px}.hero-intro{font-size:18px}.stats-strip,.skills-grid{grid-template-columns:1fr}.project-media{min-height:320px}.collage .side-shot,.document-shot{width:54%}.contact{width:calc(100% - 28px);padding:34px 20px}.site-header{padding:16px 18px}}
 .project-actions{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-top:20px}.text-link{display:inline-flex;align-items:center;justify-content:center;border:1px solid #c7d2fe;background:#eef4ff;color:#1d4ed8;border-radius:999px;padding:10px 14px;font-weight:850;font-size:14px}.text-link:hover{background:#1d4ed8;color:#fff}
+.tools {
+  margin: 10px 0 18px;
+  font-size: 0.95rem;
+  color: #64748b;
+  line-height: 1.5;
+}
+
+.tools strong {
+  color: #0f172a;
+  font-weight: 600;
+}
